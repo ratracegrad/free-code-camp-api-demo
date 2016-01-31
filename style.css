@@ -1,0 +1,31 @@
+body {
+    background-color: #4E7AC7;
+    font-size: 16px;
+}
+.headerInfo {
+    color: #eee;
+    margin-bottom: 35px;
+}
+.entry {
+    border: 1px solid transparent;
+}
+.headline {
+    color: #F2ECCE;
+    font-style: italic;
+}
+.author {
+    color: #333;
+}
+.upvotes:before {
+    content: '\2665';
+}
+.upvotes {
+    color: red;
+}
+a:hover {
+    text-decoration: none;
+}
+.headshot {
+    min-width: 100%;
+    min-height: 100%;
+}
